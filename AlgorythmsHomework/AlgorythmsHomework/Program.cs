@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+//Выполнил Федосенко Антон Александрович
+//Делал 4 задачи, которые объявили в конце вебинара
 
+//1. Ввести вес и рост человека. Рассчитать и вывести индекс массы тела по формуле I=m/(h*h); где m-масса тела в килограммах, h - рост в метрах.
+//2. Найти максимальное из четырех чисел. Массивы не использовать.
+//3. Написать программу обмена значениями двух целочисленных переменных
+//4. Написать программу нахождения корней заданного квадратного уравнения.
 namespace AlgorythmsHomework
 {
     class Program
@@ -11,7 +17,7 @@ namespace AlgorythmsHomework
         static string[] TaskMap = new string[] { "NumPad1 = Вычисление индекса массы тела", "NumPad2 = Нахождение максимально числа из 4", "Numpad3 = Обмен значений переменных","NumPad4 = Вычисление корней квадратного уравнения, Escape - Выйти из программы" };
         static ConsoleKey[] KeyValues = new ConsoleKey[] { ConsoleKey.NumPad1, ConsoleKey.NumPad2, ConsoleKey.NumPad3, ConsoleKey.NumPad4, ConsoleKey.Escape };
         static ConsoleKeyInfo key;
-        static bool GoForward = false;
+        //static bool GoForward = false;
         static double mass;
         static double height;
         static double BodyMassIdx;
