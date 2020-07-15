@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorythmsHomework", "Algor
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork1", "HomeWork1", "{84CFD6D9-10E8-410E-BDD3-3EDCA4841FDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork2", "HomeWork2", "{551595DE-97EF-4FB1-AACD-A214486E7D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{F8C2D531-0582-4164-AF11-5717A5C5DA83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{45983BDF-AF52-4D30-A7C4-054B8C66719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45983BDF-AF52-4D30-A7C4-054B8C66719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45983BDF-AF52-4D30-A7C4-054B8C66719B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C2D531-0582-4164-AF11-5717A5C5DA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C2D531-0582-4164-AF11-5717A5C5DA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C2D531-0582-4164-AF11-5717A5C5DA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C2D531-0582-4164-AF11-5717A5C5DA83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{45983BDF-AF52-4D30-A7C4-054B8C66719B} = {84CFD6D9-10E8-410E-BDD3-3EDCA4841FDD}
+		{F8C2D531-0582-4164-AF11-5717A5C5DA83} = {551595DE-97EF-4FB1-AACD-A214486E7D42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FF3BDF1-6C22-446A-9871-3F07BB62BD55}
